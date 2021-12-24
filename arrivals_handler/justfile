@@ -1,0 +1,10 @@
+set dotenv-load := true
+
+build:
+	cargo build --release --target x86_64-unknown-linux-musl
+
+package:
+	zip -j function.zip ./target/x86_64-unknown-linux-musl/release/bootstrap
+
+publish: build package
+	aws create-function --role whos-home-lambda --function-name arrivals-handler --runtime provided.al2 --package-type Zip --zip-file function.zip

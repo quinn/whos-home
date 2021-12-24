@@ -1,0 +1,20 @@
+[package]
+name = "arrivals_handler"
+version = "0.1.0"
+edition = "2021"
+autobins = false
+authors = ["quinn <q.shanahan@gmail.com>", "harrison <h.borges10592@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lambda_runtime = "^0.1"
+serde = "^1"
+serde_json = "^1"
+serde_derive = "^1"
+log = "^0.4"
+simple_logger = "^1"
+
+[[bin]]
+name = "bootstrap"
+path = "src/main.rs"
