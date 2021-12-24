@@ -35,5 +35,5 @@ The `publish` command does a few things:
 
 ## Resources
 
-[AWS Console](https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2)
-[https://app.terraform.io/app/whos-home/workspaces/whos-home](Terraform Cloud)
+- [AWS Console](https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2)
+- [Terraform Cloud](https://app.terraform.io/app/whos-home/workspaces/whos-home)
