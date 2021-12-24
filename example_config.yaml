@@ -1,0 +1,14 @@
+queue_id: wkeljlk3j4kl3j43
+queue_name: whos-home-queue-dave
+following:
+  - name: Harrison
+    location_name: Home
+    gpio_pin_number: 48
+
+  - name: Kyle
+    location_name: Home
+    gpio_pin_number: 53
+
+  - name: Mom
+    location_name: Home
+    gpio_pin_number: 87
